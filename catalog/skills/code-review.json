@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "code-review",
+  "version": "0.1.0",
+  "name": "Code Review",
+  "category": "quality",
+  "useWhen": [
+    "Reviewing a proposed change"
+  ],
+  "inputs": [
+    "Diff, requirement, test evidence"
+  ],
+  "procedure": [
+    "Check correctness and edge cases",
+    "Check compatibility and maintainability",
+    "Prioritize actionable findings"
+  ],
+  "outputs": [
+    "Findings with location and rationale"
+  ],
+  "safety": [
+    "Review actual diff, not author summary alone"
+  ],
+  "completionChecks": [
+    "Findings are evidenced"
+  ]
+}

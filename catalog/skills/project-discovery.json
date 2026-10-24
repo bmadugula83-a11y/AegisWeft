@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "project-discovery",
+  "version": "0.1.0",
+  "name": "Project Discovery",
+  "category": "planning",
+  "useWhen": [
+    "Starting a project or unclear request"
+  ],
+  "inputs": [
+    "Problem, stakeholders, constraints"
+  ],
+  "procedure": [
+    "Identify user and outcome",
+    "Separate facts, assumptions, unknowns",
+    "Record risks and open decisions"
+  ],
+  "outputs": [
+    "Discovery brief"
+  ],
+  "safety": [
+    "Do not invent stakeholder intent"
+  ],
+  "completionChecks": [
+    "Outcome and unknowns are explicit"
+  ]
+}

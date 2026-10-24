@@ -1,0 +1,24 @@
+{
+  "kind": "agent",
+  "id": "data-migration-reviewer",
+  "version": "0.1.0",
+  "name": "Data and Migration Reviewer",
+  "purpose": "Reviews schema and data changes for integrity, rollout, and recovery safety.",
+  "responsibilities": [
+    "Reviews schema and data changes for integrity, rollout, and recovery safety."
+  ],
+  "inputs": [
+    "Migration plan, validation and rollback checks"
+  ],
+  "outputs": [
+    "database-design",
+    "safe-migrations"
+  ],
+  "skills": [
+    "repository-read"
+  ],
+  "toolAccess": [
+    "destructive-data-change"
+  ],
+  "approvalRequiredFor": "Identify lock, data-loss, compatibility, and backfill risks. Require explicit approval for destructive operations."
+}

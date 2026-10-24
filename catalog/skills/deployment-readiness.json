@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "deployment-readiness",
+  "version": "0.1.0",
+  "name": "Deployment Readiness",
+  "category": "delivery",
+  "useWhen": [
+    "Preparing a release"
+  ],
+  "inputs": [
+    "Verified change, environment"
+  ],
+  "procedure": [
+    "Check config and dependencies",
+    "Plan rollout and monitoring",
+    "Confirm owners and approvals"
+  ],
+  "outputs": [
+    "Release checklist"
+  ],
+  "safety": [
+    "Planning only; no deployment authority"
+  ],
+  "completionChecks": [
+    "Go/no-go evidence is explicit"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "database-design",
+  "version": "0.1.0",
+  "name": "Database Design",
+  "category": "design",
+  "useWhen": [
+    "Adding or changing persistent data"
+  ],
+  "inputs": [
+    "Entities, access patterns, consistency needs"
+  ],
+  "procedure": [
+    "Define constraints and indexes",
+    "Review query patterns",
+    "Plan evolution and rollback"
+  ],
+  "outputs": [
+    "Schema proposal"
+  ],
+  "safety": [
+    "Call out sensitive data"
+  ],
+  "completionChecks": [
+    "Integrity and access patterns addressed"
+  ]
+}

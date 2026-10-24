@@ -1,0 +1,24 @@
+{
+  "kind": "agent",
+  "id": "release-operations-planner",
+  "version": "0.1.0",
+  "name": "Release and Operations Planner",
+  "purpose": "Plans safe rollout, monitoring, ownership, support, and rollback.",
+  "responsibilities": [
+    "Plans safe rollout, monitoring, ownership, support, and rollback."
+  ],
+  "inputs": [
+    "Release checklist, runbook, rollback plan"
+  ],
+  "outputs": [
+    "deployment-readiness",
+    "rollback-planning"
+  ],
+  "skills": [
+    "repository-read"
+  ],
+  "toolAccess": [
+    "production-action"
+  ],
+  "approvalRequiredFor": "Prepare plans only. Production execution requires an authorized human approval and a scoped connector."
+}

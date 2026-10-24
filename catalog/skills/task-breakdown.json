@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "task-breakdown",
+  "version": "0.1.0",
+  "name": "Task Breakdown",
+  "category": "planning",
+  "useWhen": [
+    "A change spans multiple steps"
+  ],
+  "inputs": [
+    "Requirements, constraints"
+  ],
+  "procedure": [
+    "Identify dependencies",
+    "Slice into reviewable steps",
+    "Assign verification per step"
+  ],
+  "outputs": [
+    "Ordered implementation plan"
+  ],
+  "safety": [
+    "Avoid unnecessary decomposition"
+  ],
+  "completionChecks": [
+    "Steps have clear completion conditions"
+  ]
+}

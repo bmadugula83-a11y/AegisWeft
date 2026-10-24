@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AegisWeft Tool Connector",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "kind",
+    "id",
+    "version",
+    "provider",
+    "operations",
+    "authMode",
+    "scopes",
+    "dataHandling",
+    "riskLevel",
+    "humanApprovalRequired"
+  ],
+  "properties": {
+    "kind": {
+      "const": "tool-connector"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "version": {
+      "type": "string"
+    },
+    "provider": {
+      "type": "string"
+    },
+    "operations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authMode": {
+      "enum": [
+        "none",
+        "user-delegated",
+        "service-identity",
+        "secret-reference"
+      ]
+    },
+    "scopes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dataHandling": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "riskLevel": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "humanApprovalRequired": {
+      "type": "boolean"
+    }
+  }
+}

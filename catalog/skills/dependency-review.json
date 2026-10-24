@@ -1,0 +1,28 @@
+{
+  "kind": "skill",
+  "id": "dependency-review",
+  "version": "0.1.0",
+  "name": "Dependency Review",
+  "category": "security",
+  "useWhen": [
+    "Adding or upgrading a third-party dependency"
+  ],
+  "inputs": [
+    "Dependency change, package metadata, project policy"
+  ],
+  "procedure": [
+    "Check source, maintainer, version, and provenance",
+    "Review permissions, transitive dependencies, and known advisories using approved tools",
+    "Record license and update implications"
+  ],
+  "outputs": [
+    "Dependency risk assessment"
+  ],
+  "safety": [
+    "Do not install or execute unreviewed packages during review"
+  ],
+  "completionChecks": [
+    "Version and source are recorded",
+    "Known risks and license compatibility are addressed"
+  ]
+}

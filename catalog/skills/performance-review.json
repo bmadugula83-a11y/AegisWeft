@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "performance-review",
+  "version": "0.1.0",
+  "name": "Performance Review",
+  "category": "operations",
+  "useWhen": [
+    "Latency or resource use may be affected"
+  ],
+  "inputs": [
+    "Workload, code path, baseline"
+  ],
+  "procedure": [
+    "Identify likely hot paths",
+    "Select measurable indicators",
+    "Recommend profiling or bounded optimization"
+  ],
+  "outputs": [
+    "Performance plan/findings"
+  ],
+  "safety": [
+    "No unmeasured claims"
+  ],
+  "completionChecks": [
+    "Baseline and measurement are explicit"
+  ]
+}

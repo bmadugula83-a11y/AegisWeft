@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "framework-conventions",
+  "version": "0.1.0",
+  "name": "Framework Conventions",
+  "category": "implementation",
+  "useWhen": [
+    "Implementing within a project"
+  ],
+  "inputs": [
+    "Project profile, nearby examples"
+  ],
+  "procedure": [
+    "Inspect local patterns",
+    "Follow naming and error conventions",
+    "Check relevant project rules"
+  ],
+  "outputs": [
+    "Conforming implementation"
+  ],
+  "safety": [
+    "Do not overrule explicit project guidance"
+  ],
+  "completionChecks": [
+    "Change matches local patterns"
+  ]
+}

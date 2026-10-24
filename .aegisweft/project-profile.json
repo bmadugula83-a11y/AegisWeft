@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "0.1.0",
+  "projectName": "",
+  "languageAndFrameworks": [],
+  "commands": {
+    "build": "",
+    "test": "",
+    "lint": ""
+  },
+  "repositoryRules": [],
+  "dataClassification": "internal",
+  "approvedProviders": [],
+  "enabledToolConnectors": [],
+  "approvalGates": {
+    "productionActions": true,
+    "destructiveDataChanges": true,
+    "externalCommunication": true
+  }
+}

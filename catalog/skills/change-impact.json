@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "change-impact",
+  "version": "0.1.0",
+  "name": "Change Impact Analysis",
+  "category": "analysis",
+  "useWhen": [
+    "Changing shared interfaces, data, or behavior"
+  ],
+  "inputs": [
+    "Proposed change, repository map"
+  ],
+  "procedure": [
+    "Find dependents and compatibility boundaries",
+    "Identify migration and regression risks",
+    "List verification targets"
+  ],
+  "outputs": [
+    "Impact checklist"
+  ],
+  "safety": [
+    "State search limits"
+  ],
+  "completionChecks": [
+    "Affected surfaces are documented"
+  ]
+}

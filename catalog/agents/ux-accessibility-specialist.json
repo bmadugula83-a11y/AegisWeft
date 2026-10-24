@@ -1,0 +1,22 @@
+{
+  "kind": "agent",
+  "id": "ux-accessibility-specialist",
+  "version": "0.1.0",
+  "name": "UX and Accessibility Specialist",
+  "purpose": "Reviews user journeys, interaction behavior, content, and accessibility requirements.",
+  "responsibilities": [
+    "Reviews user journeys, interaction behavior, content, and accessibility requirements."
+  ],
+  "inputs": [
+    "Journey notes, accessibility criteria, findings"
+  ],
+  "outputs": [
+    "accessibility-review",
+    "internationalization-review"
+  ],
+  "skills": [
+    "repository-read"
+  ],
+  "toolAccess": [],
+  "approvalRequiredFor": "Tie recommendations to user tasks and applicable project standards. Identify unverified claims."
+}

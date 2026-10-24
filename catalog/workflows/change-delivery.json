@@ -1,0 +1,69 @@
+{
+  "kind": "workflow",
+  "id": "change-delivery",
+  "version": "0.1.0",
+  "name": "Change Delivery",
+  "states": [
+    "defined",
+    "designed",
+    "building",
+    "verifying",
+    "ready-for-review",
+    "released",
+    "closed"
+  ],
+  "transitions": [
+    {
+      "from": "defined",
+      "to": "designed",
+      "requires": [
+        "scope",
+        "acceptance-criteria"
+      ]
+    },
+    {
+      "from": "designed",
+      "to": "building",
+      "requires": [
+        "design-notes-or-approved-no-design"
+      ]
+    },
+    {
+      "from": "building",
+      "to": "verifying",
+      "requires": [
+        "implementation-diff"
+      ]
+    },
+    {
+      "from": "verifying",
+      "to": "ready-for-review",
+      "requires": [
+        "verification-evidence",
+        "security-checks-when-required"
+      ]
+    },
+    {
+      "from": "ready-for-review",
+      "to": "released",
+      "requires": [
+        "human-review-approval",
+        "release-plan-when-required"
+      ]
+    },
+    {
+      "from": "released",
+      "to": "closed",
+      "requires": [
+        "release-evidence-or-not-applicable"
+      ]
+    }
+  ],
+  "requiredArtifacts": [
+    "work-item",
+    "acceptance-criteria",
+    "implementation-diff",
+    "verification-evidence",
+    "review-record"
+  ]
+}

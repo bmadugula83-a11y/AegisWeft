@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "architecture-decisions",
+  "version": "0.1.0",
+  "name": "Architecture Decisions",
+  "category": "design",
+  "useWhen": [
+    "A consequential design choice exists"
+  ],
+  "inputs": [
+    "Requirements, constraints, alternatives"
+  ],
+  "procedure": [
+    "Compare viable options",
+    "Record tradeoffs",
+    "Document decision and revisit conditions"
+  ],
+  "outputs": [
+    "Architecture decision record"
+  ],
+  "safety": [
+    "Expose assumptions and cost"
+  ],
+  "completionChecks": [
+    "Decision is reviewable"
+  ]
+}

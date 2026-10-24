@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "repository-mapping",
+  "version": "0.1.0",
+  "name": "Repository Mapping",
+  "category": "analysis",
+  "useWhen": [
+    "Entering an unfamiliar repository"
+  ],
+  "inputs": [
+    "Repository access, question"
+  ],
+  "procedure": [
+    "Identify entry points and modules",
+    "Trace relevant behavior",
+    "Cite paths and symbols"
+  ],
+  "outputs": [
+    "Evidence-backed code map"
+  ],
+  "safety": [
+    "Distinguish evidence from inference"
+  ],
+  "completionChecks": [
+    "Claims link to repository evidence"
+  ]
+}

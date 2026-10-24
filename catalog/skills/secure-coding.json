@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "secure-coding",
+  "version": "0.1.0",
+  "name": "Secure Coding Review",
+  "category": "security",
+  "useWhen": [
+    "Writing or reviewing code"
+  ],
+  "inputs": [
+    "Code and threat context"
+  ],
+  "procedure": [
+    "Validate inputs",
+    "Check auth and authorization",
+    "Review data exposure and error paths"
+  ],
+  "outputs": [
+    "Security checklist/findings"
+  ],
+  "safety": [
+    "Never include real secrets"
+  ],
+  "completionChecks": [
+    "Trust boundaries are checked"
+  ]
+}

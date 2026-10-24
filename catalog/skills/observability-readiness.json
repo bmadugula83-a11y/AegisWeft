@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "observability-readiness",
+  "version": "0.1.0",
+  "name": "Observability Readiness",
+  "category": "operations",
+  "useWhen": [
+    "Adding or changing a service capability"
+  ],
+  "inputs": [
+    "SLOs, failure modes, service design"
+  ],
+  "procedure": [
+    "Identify key signals",
+    "Define useful logs and alerts",
+    "Check correlation and privacy"
+  ],
+  "outputs": [
+    "Monitoring requirements"
+  ],
+  "safety": [
+    "Do not log sensitive data"
+  ],
+  "completionChecks": [
+    "Actionable signals cover key failures"
+  ]
+}

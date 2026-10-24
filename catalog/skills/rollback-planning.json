@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "rollback-planning",
+  "version": "0.1.0",
+  "name": "Rollback Planning",
+  "category": "delivery",
+  "useWhen": [
+    "A release can affect availability or data"
+  ],
+  "inputs": [
+    "Deployment plan, migration details"
+  ],
+  "procedure": [
+    "Define rollback triggers",
+    "Check reversibility",
+    "Assign recovery owner and steps"
+  ],
+  "outputs": [
+    "Rollback/recovery plan"
+  ],
+  "safety": [
+    "Some migrations need forward-fix, not rollback"
+  ],
+  "completionChecks": [
+    "Recovery path is feasible"
+  ]
+}

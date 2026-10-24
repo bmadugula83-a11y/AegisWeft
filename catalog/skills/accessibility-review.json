@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "accessibility-review",
+  "version": "0.1.0",
+  "name": "Accessibility Review",
+  "category": "design",
+  "useWhen": [
+    "User-facing interface change"
+  ],
+  "inputs": [
+    "User journey, UI implementation"
+  ],
+  "procedure": [
+    "Check keyboard and focus",
+    "Check names, semantics, contrast",
+    "Review errors and dynamic content"
+  ],
+  "outputs": [
+    "Findings and acceptance criteria"
+  ],
+  "safety": [
+    "Verify against applicable project standard"
+  ],
+  "completionChecks": [
+    "Relevant interactions have criteria"
+  ]
+}

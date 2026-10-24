@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "api-design",
+  "version": "0.1.0",
+  "name": "API and Interface Design",
+  "category": "design",
+  "useWhen": [
+    "Adding or changing an interface"
+  ],
+  "inputs": [
+    "Use cases, compatibility needs"
+  ],
+  "procedure": [
+    "Define inputs and outputs",
+    "Specify errors and auth",
+    "Address versioning and compatibility"
+  ],
+  "outputs": [
+    "Interface contract"
+  ],
+  "safety": [
+    "Avoid leaking secrets in examples"
+  ],
+  "completionChecks": [
+    "Happy path and failure cases covered"
+  ]
+}

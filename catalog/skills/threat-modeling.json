@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "threat-modeling",
+  "version": "0.1.0",
+  "name": "Threat Modeling",
+  "category": "security",
+  "useWhen": [
+    "New trust boundary, data flow, or privileged action"
+  ],
+  "inputs": [
+    "Architecture, assets, actors"
+  ],
+  "procedure": [
+    "Identify assets and trust boundaries",
+    "Enumerate abuse cases",
+    "Map mitigations to controls"
+  ],
+  "outputs": [
+    "Threat and mitigation record"
+  ],
+  "safety": [
+    "Do not treat model output as proof of security"
+  ],
+  "completionChecks": [
+    "Risks have owners or explicit acceptance"
+  ]
+}

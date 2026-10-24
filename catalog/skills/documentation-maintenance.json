@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "documentation-maintenance",
+  "version": "0.1.0",
+  "name": "Documentation Maintenance",
+  "category": "knowledge",
+  "useWhen": [
+    "Verified behavior or interface changes"
+  ],
+  "inputs": [
+    "Diff, tests, intended audience"
+  ],
+  "procedure": [
+    "Find affected docs",
+    "Update examples and setup steps",
+    "Check for stale claims"
+  ],
+  "outputs": [
+    "Documentation changes"
+  ],
+  "safety": [
+    "Do not claim unshipped behavior"
+  ],
+  "completionChecks": [
+    "Docs match verified behavior"
+  ]
+}

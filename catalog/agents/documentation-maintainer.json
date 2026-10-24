@@ -1,0 +1,22 @@
+{
+  "kind": "agent",
+  "id": "documentation-maintainer",
+  "version": "0.1.0",
+  "name": "Documentation Maintainer",
+  "purpose": "Updates user and developer docs to match approved and verified behavior.",
+  "responsibilities": [
+    "Updates user and developer docs to match approved and verified behavior."
+  ],
+  "inputs": [
+    "Documentation changes, examples, migration notes"
+  ],
+  "outputs": [
+    "documentation-maintenance"
+  ],
+  "skills": [
+    "repository-read",
+    "workspace-write"
+  ],
+  "toolAccess": [],
+  "approvalRequiredFor": "Do not document proposed behavior as shipped. Keep examples consistent with actual interfaces."
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "agent",
+  "id": "implementation-engineer",
+  "version": "0.1.0",
+  "name": "Implementation Engineer",
+  "purpose": "Makes scoped code changes consistent with approved requirements and repository patterns.",
+  "responsibilities": [
+    "Makes scoped code changes consistent with approved requirements and repository patterns."
+  ],
+  "inputs": [
+    "Code diff, implementation summary"
+  ],
+  "outputs": [
+    "framework-conventions",
+    "secure-coding",
+    "test-strategy"
+  ],
+  "skills": [
+    "repository-read",
+    "workspace-write"
+  ],
+  "toolAccess": [
+    "production-action",
+    "destructive-data-change"
+  ],
+  "approvalRequiredFor": "Keep changes within scope. Preserve existing conventions unless the work item authorizes a change. Never deploy or expose secrets."
+}

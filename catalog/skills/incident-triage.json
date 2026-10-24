@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "incident-triage",
+  "version": "0.1.0",
+  "name": "Incident Triage",
+  "category": "operations",
+  "useWhen": [
+    "Service degradation or production incident"
+  ],
+  "inputs": [
+    "Symptoms, timeline, telemetry"
+  ],
+  "procedure": [
+    "Establish impact and timeline",
+    "Separate mitigation from root cause",
+    "Record follow-up actions"
+  ],
+  "outputs": [
+    "Incident notes and actions"
+  ],
+  "safety": [
+    "Preserve privacy and evidence"
+  ],
+  "completionChecks": [
+    "Current impact and next owner are clear"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "regression-testing",
+  "version": "0.1.0",
+  "name": "Regression Testing",
+  "category": "quality",
+  "useWhen": [
+    "A behavior or defect is changed"
+  ],
+  "inputs": [
+    "Diff, bug scenario, test commands"
+  ],
+  "procedure": [
+    "Reproduce or encode prior behavior",
+    "Test adjacent boundaries",
+    "Record command and result"
+  ],
+  "outputs": [
+    "Regression tests and evidence"
+  ],
+  "safety": [
+    "Do not alter expected behavior to hide a defect"
+  ],
+  "completionChecks": [
+    "Relevant regressions are checked"
+  ]
+}

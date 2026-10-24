@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "debugging",
+  "version": "0.1.0",
+  "name": "Debugging and Build Diagnosis",
+  "category": "quality",
+  "useWhen": [
+    "Build, test, or runtime failure"
+  ],
+  "inputs": [
+    "Failure output, relevant code"
+  ],
+  "procedure": [
+    "Reproduce failure",
+    "Narrow cause with evidence",
+    "Make minimal correction and recheck"
+  ],
+  "outputs": [
+    "Cause, fix, verification"
+  ],
+  "safety": [
+    "Do not suppress failures without explaining"
+  ],
+  "completionChecks": [
+    "Failure is reproduced or limitation stated"
+  ]
+}

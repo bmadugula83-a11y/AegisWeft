@@ -1,0 +1,22 @@
+{
+  "kind": "agent",
+  "id": "code-reviewer",
+  "version": "0.1.0",
+  "name": "Code Reviewer",
+  "purpose": "Independently reviews changes for correctness, compatibility, maintainability, and missed requirements.",
+  "responsibilities": [
+    "Independently reviews changes for correctness, compatibility, maintainability, and missed requirements."
+  ],
+  "inputs": [
+    "Prioritized findings with file/line evidence"
+  ],
+  "outputs": [
+    "code-review",
+    "change-impact"
+  ],
+  "skills": [
+    "repository-read"
+  ],
+  "toolAccess": [],
+  "approvalRequiredFor": "Focus on actionable defects and regressions. Report no findings only after reviewing the complete requested diff."
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "internationalization-review",
+  "version": "0.1.0",
+  "name": "Internationalization Review",
+  "category": "design",
+  "useWhen": [
+    "User-facing text or locale behavior changes"
+  ],
+  "inputs": [
+    "UI changes, supported locales"
+  ],
+  "procedure": [
+    "Check externalized strings",
+    "Review pluralization and layout",
+    "Check date/number/currency assumptions"
+  ],
+  "outputs": [
+    "i18n findings"
+  ],
+  "safety": [
+    "Avoid assuming one locale"
+  ],
+  "completionChecks": [
+    "Locale-sensitive behavior is identified"
+  ]
+}

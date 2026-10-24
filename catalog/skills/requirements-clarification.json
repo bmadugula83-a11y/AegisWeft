@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "requirements-clarification",
+  "version": "0.1.0",
+  "name": "Requirements Clarification",
+  "category": "planning",
+  "useWhen": [
+    "Turning a request into a work item"
+  ],
+  "inputs": [
+    "Discovery notes"
+  ],
+  "procedure": [
+    "Define scope and non-goals",
+    "Write observable acceptance criteria",
+    "Identify dependencies and edge cases"
+  ],
+  "outputs": [
+    "Requirements and acceptance criteria"
+  ],
+  "safety": [
+    "Flag unresolved material choices"
+  ],
+  "completionChecks": [
+    "Each criterion is testable"
+  ]
+}

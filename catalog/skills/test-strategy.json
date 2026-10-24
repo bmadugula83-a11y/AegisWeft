@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "test-strategy",
+  "version": "0.1.0",
+  "name": "Test Strategy",
+  "category": "quality",
+  "useWhen": [
+    "Planning verification"
+  ],
+  "inputs": [
+    "Acceptance criteria, risk"
+  ],
+  "procedure": [
+    "Map criteria to test levels",
+    "Select high-value cases",
+    "Identify test fixtures and limitations"
+  ],
+  "outputs": [
+    "Test plan"
+  ],
+  "safety": [
+    "Avoid claiming coverage without evidence"
+  ],
+  "completionChecks": [
+    "Every critical criterion has a verification path"
+  ]
+}

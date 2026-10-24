@@ -1,0 +1,27 @@
+{
+  "kind": "skill",
+  "id": "safe-migrations",
+  "version": "0.1.0",
+  "name": "Safe Data Migrations",
+  "category": "delivery",
+  "useWhen": [
+    "Changing persisted data"
+  ],
+  "inputs": [
+    "Schema, dataset constraints, deployment process"
+  ],
+  "procedure": [
+    "Check compatibility window",
+    "Plan backfill and validation",
+    "Plan rollback or forward recovery"
+  ],
+  "outputs": [
+    "Migration and recovery plan"
+  ],
+  "safety": [
+    "Destructive steps require approval"
+  ],
+  "completionChecks": [
+    "Data correctness and recovery are addressed"
+  ]
+}
