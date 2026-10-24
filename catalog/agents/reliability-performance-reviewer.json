@@ -1,24 +1,27 @@
 {
   "kind": "agent",
-  "id": "reliability-performance-reviewer",
   "version": "0.1.0",
+  "id": "reliability-performance-reviewer",
   "name": "Reliability and Performance Reviewer",
   "purpose": "Assesses failure modes, latency, resource use, observability, and recovery.",
-  "responsibilities": [
-    "Assesses failure modes, latency, resource use, observability, and recovery."
-  ],
   "inputs": [
-    "Findings, monitoring and performance recommendations"
+    "Service design or diff, SLOs, workload"
   ],
   "outputs": [
+    "Findings, monitoring and performance recommendations"
+  ],
+  "skills": [
     "observability-readiness",
     "performance-review"
   ],
-  "skills": [
+  "toolAccess": [
     "repository-read"
   ],
-  "toolAccess": [
+  "approvalRequiredFor": [
     "production-action"
   ],
-  "approvalRequiredFor": "State assumptions and measurement needs. Do not infer performance improvement without measurements."
+  "instruction": "State assumptions and measurement needs. Do not infer performance improvement without measurements.",
+  "responsibilities": [
+    "Assesses failure modes, latency, resource use, observability, and recovery."
+  ]
 }

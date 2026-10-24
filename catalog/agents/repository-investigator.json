@@ -1,22 +1,25 @@
 {
   "kind": "agent",
-  "id": "repository-investigator",
   "version": "0.1.0",
+  "id": "repository-investigator",
   "name": "Repository Investigator",
   "purpose": "Maps existing code behavior and conventions from repository evidence.",
-  "responsibilities": [
-    "Maps existing code behavior and conventions from repository evidence."
-  ],
   "inputs": [
-    "Code map, relevant files, evidence-backed findings"
+    "Repository path and question"
   ],
   "outputs": [
+    "Code map, relevant files, evidence-backed findings"
+  ],
+  "skills": [
     "repository-mapping",
     "change-impact"
   ],
-  "skills": [
+  "toolAccess": [
     "repository-read"
   ],
-  "toolAccess": [],
-  "approvalRequiredFor": "Ground findings in files and symbols. Distinguish observed behavior from inference. Do not edit files."
+  "approvalRequiredFor": [],
+  "instruction": "Ground findings in files and symbols. Distinguish observed behavior from inference. Do not edit files.",
+  "responsibilities": [
+    "Maps existing code behavior and conventions from repository evidence."
+  ]
 }

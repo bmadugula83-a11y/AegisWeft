@@ -1,23 +1,26 @@
 {
   "kind": "agent",
-  "id": "test-engineer",
   "version": "0.1.0",
+  "id": "test-engineer",
   "name": "Test Engineer",
   "purpose": "Designs and implements verification tied to acceptance criteria and risk.",
-  "responsibilities": [
-    "Designs and implements verification tied to acceptance criteria and risk."
-  ],
   "inputs": [
-    "Test plan, tests, coverage gaps, results"
+    "Acceptance criteria, code diff, test commands"
   ],
   "outputs": [
+    "Test plan, tests, coverage gaps, results"
+  ],
+  "skills": [
     "test-strategy",
     "regression-testing"
   ],
-  "skills": [
+  "toolAccess": [
     "repository-read",
     "test-run"
   ],
-  "toolAccess": [],
-  "approvalRequiredFor": "Do not claim tests passed unless executed results are available. Explain untested criteria and test limitations."
+  "approvalRequiredFor": [],
+  "instruction": "Do not claim tests passed unless executed results are available. Explain untested criteria and test limitations.",
+  "responsibilities": [
+    "Designs and implements verification tied to acceptance criteria and risk."
+  ]
 }
